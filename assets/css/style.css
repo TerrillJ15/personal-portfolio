@@ -10,12 +10,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #272829;
 }
 
 a {
-  color: #149ddd;
+  color: #669367;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #669367;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #b3e0b3;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #1d2a1d;
   overflow-y: auto;
 }
 
@@ -87,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #3a543b;
 }
 
 #header .profile h1 {
@@ -97,7 +97,7 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #header .profile h1 a,
@@ -122,7 +122,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #669367;
   color: #fff;
   text-decoration: none;
 }
@@ -155,7 +155,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
@@ -181,7 +181,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
@@ -189,8 +189,8 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
-.nav-menu li:hover>a i {
-  color: #149ddd;
+.nav-menu li:hover > a i {
+  color: #669367;
 }
 
 /* Mobile Navigation */
@@ -203,7 +203,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #669367;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -229,12 +229,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url('../img/hero-bg.jpg') top center;
   background-size: cover;
 }
 
 #hero:before {
-  content: "";
+  content: '';
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
@@ -262,14 +262,14 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #hero p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #669367;
 }
 
 @media (min-width: 1024px) {
@@ -300,7 +300,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #f4fbf4;
 }
 
 .section-title {
@@ -313,16 +313,16 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #3a543b;
 }
 
 .section-title h2::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #669367;
   bottom: 0;
   left: 0;
 }
@@ -337,7 +337,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #3a543b;
 }
 
 .about .content ul {
@@ -358,7 +358,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #669367;
   line-height: 0;
 }
 
@@ -381,7 +381,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #669367;
   float: left;
   line-height: 0;
 }
@@ -398,7 +398,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #122f57;
 }
@@ -409,7 +409,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -433,7 +433,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #050d18;
 }
 
@@ -451,7 +451,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #669367;
 }
 
 /*--------------------------------------------------------------
@@ -477,7 +477,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
@@ -504,7 +504,7 @@ section {
 }
 
 .resume .resume-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
@@ -547,7 +547,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #669367;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -562,7 +562,7 @@ section {
 }
 
 .portfolio .portfolio-wrap::before {
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
@@ -590,17 +590,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #669367;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #b3e0b3;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+.portfolio .portfolio-wrap .portfolio-links a + a {
+  border-left: 1px solid #669367;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -632,16 +632,22 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #669367;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: #669367;
 }
 
 .portfolio-details .portfolio-info {
@@ -663,7 +669,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -695,10 +701,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #669367;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #669367;
 }
 
 .services .icon i {
@@ -712,7 +718,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #669367;
 }
 
 .services .title {
@@ -727,7 +733,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #669367;
 }
 
 .services .description {
@@ -800,7 +806,7 @@ section {
 }
 
 .testimonials .testimonial-item p::after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   border-top: 20px solid #fff;
@@ -821,11 +827,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #669367;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #669367;
 }
 
 /*--------------------------------------------------------------
@@ -844,11 +850,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #669367;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -868,7 +874,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #3a543b;
 }
 
 .contact .info .email p {
@@ -895,14 +901,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #669367;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #b3e0b3;
   color: #fff;
 }
 
@@ -934,7 +940,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -955,7 +961,7 @@ section {
 }
 
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -989,8 +995,8 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #149ddd;
+.contact .php-email-form button[type='submit'] {
+  background: #669367;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -998,8 +1004,8 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+.contact .php-email-form button[type='submit']:hover {
+  background: #b3e0b3;
 }
 
 @keyframes animate-loading {
@@ -1034,15 +1040,15 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
-  content: "/";
+  content: '/';
 }
 
 @media (max-width: 768px) {
@@ -1071,7 +1077,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #1d2a1d;
 }
 
 #footer .copyright {
